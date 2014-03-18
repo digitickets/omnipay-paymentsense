@@ -2,9 +2,9 @@
 
 **PaymentSense driver for the Omnipay PHP payment processing library**
 
-[![Build Status](https://travis-ci.org/omnipay/paymentsense.png?branch=master)](https://travis-ci.org/omnipay/paymentsense)
-[![Latest Stable Version](https://poser.pugx.org/omnipay/paymentsense/version.png)](https://packagist.org/packages/omnipay/paymentsense)
-[![Total Downloads](https://poser.pugx.org/omnipay/paymentsense/d/total.png)](https://packagist.org/packages/omnipay/paymentsense)
+[![Build Status](https://travis-ci.org/coatesap/omnipay-paymentsense.png?branch=master)](https://travis-ci.org/omnipay/paymentsense)
+[![Latest Stable Version](https://poser.pugx.org/coatesap/omnipay-paymentsense/version.png)](https://packagist.org/packages/coatesap/omnipay-paymentsense)
+[![Total Downloads](https://poser.pugx.org/coatesap/omnipay-paymentsense/d/total.png)](https://packagist.org/packages/coatesap/omnipay-paymentsense)
 
 [Omnipay](https://github.com/omnipay/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements PaymentSense support for Omnipay.
