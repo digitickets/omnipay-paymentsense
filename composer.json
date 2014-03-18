@@ -1,0 +1,42 @@
+{
+    "name": "coatesap/paymentsense",
+    "type": "library",
+    "description": "PaymentSense driver for the Omnipay payment processing library",
+    "keywords": [
+        "payment sense",
+        "paymentsense",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/coatesap/paymentsense",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Coates",
+            "email": "andycoatz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Omnipay\\PaymentSense\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "2.*"
+    },
+    "require-dev": {
+        "guzzle/plugin-mock": "~3.1",
+        "mockery/mockery": "~0.8",
+        "omnipay/tests": "2.*",
+        "phpunit/phpunit": "~3.7.16",
+        "squizlabs/php_codesniffer": "~1.4.4"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
