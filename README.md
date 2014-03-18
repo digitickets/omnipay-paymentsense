@@ -2,7 +2,7 @@
 
 **PaymentSense driver for the Omnipay PHP payment processing library**
 
-[![Build Status](https://travis-ci.org/coatesap/omnipay-paymentsense.png?branch=master)](https://travis-ci.org/omnipay/paymentsense)
+[![Build Status](https://travis-ci.org/coatesap/omnipay-paymentsense.png?branch=master)](https://travis-ci.org/coatesap/paymentsense)
 [![Latest Stable Version](https://poser.pugx.org/coatesap/omnipay-paymentsense/version.png)](https://packagist.org/packages/coatesap/omnipay-paymentsense)
 [![Total Downloads](https://poser.pugx.org/coatesap/omnipay-paymentsense/d/total.png)](https://packagist.org/packages/coatesap/omnipay-paymentsense)
 
