@@ -1,5 +1,5 @@
 {
-    "name": "coatesap/paymentsense",
+    "name": "coatesap/omnipay-paymentsense",
     "type": "library",
     "description": "PaymentSense driver for the Omnipay payment processing library",
     "keywords": [
@@ -11,7 +11,7 @@
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/coatesap/paymentsense",
+    "homepage": "https://github.com/coatesap/omnipay-paymentsense",
     "license": "MIT",
     "authors": [
         {
