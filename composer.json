@@ -9,7 +9,8 @@
         "merchant",
         "omnipay",
         "pay",
-        "payment"
+        "payment",
+        "driver"
     ],
     "homepage": "https://github.com/coatesap/omnipay-paymentsense",
     "license": "MIT",
