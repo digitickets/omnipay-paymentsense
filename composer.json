@@ -21,7 +21,7 @@
         }
     ],
     "autoload": {
-        "psr-0": { "Omnipay\\PaymentSense\\" : "src/" }
+        "psr-4": { "Coatesap\\PaymentSense\\" : "src/" }
     },
     "require": {
         "omnipay/common": "2.*"

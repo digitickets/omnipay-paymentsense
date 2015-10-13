@@ -1,9 +1,9 @@
 <?php
 
-namespace Omnipay\PaymentSense;
+namespace Coatesap\PaymentSense;
 
-use Omnipay\PaymentSense\Message\CompletePurchaseRequest;
-use Omnipay\PaymentSense\Message\PurchaseRequest;
+use Coatesap\PaymentSense\Message\CompletePurchaseRequest;
+use Coatesap\PaymentSense\Message\PurchaseRequest;
 use Omnipay\Common\AbstractGateway;
 
 /**
@@ -48,11 +48,11 @@ class Gateway extends AbstractGateway
 
     public function purchase(array $parameters = array())
     {
-        return $this->createRequest('\Omnipay\PaymentSense\Message\PurchaseRequest', $parameters);
+        return $this->createRequest('\Coatesap\PaymentSense\Message\PurchaseRequest', $parameters);
     }
 
     public function completePurchase(array $parameters = array())
     {
-        return $this->createRequest('\Omnipay\PaymentSense\Message\CompletePurchaseRequest', $parameters);
+        return $this->createRequest('\Coatesap\PaymentSense\Message\CompletePurchaseRequest', $parameters);
     }
 }

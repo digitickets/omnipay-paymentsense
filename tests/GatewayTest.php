@@ -1,6 +1,6 @@
 <?php
 
-namespace Omnipay\PaymentSense;
+namespace Coatesap\PaymentSense;
 
 use Omnipay\Common\CreditCard;
 use Omnipay\Tests\GatewayTestCase;
@@ -36,7 +36,7 @@ class GatewayTest extends GatewayTestCase
 
         $response = $this->gateway->purchase($this->options)->send();
 
-        $this->assertInstanceOf('\Omnipay\PaymentSense\Message\Response', $response);
+        $this->assertInstanceOf('\Coatesap\PaymentSense\Message\Response', $response);
         $this->assertTrue($response->isSuccessful());
         $this->assertEquals('130215141054377801316798', $response->getTransactionReference());
     }

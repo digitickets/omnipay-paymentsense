@@ -1,6 +1,6 @@
 <?php
 
-namespace Omnipay\PaymentSense\Message;
+namespace Coatesap\PaymentSense\Message;
 
 use DOMDocument;
 use Omnipay\Common\Exception\InvalidResponseException;
