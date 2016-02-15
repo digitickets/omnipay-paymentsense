@@ -32,7 +32,7 @@ And run composer to update your dependencies:
 
 This package provides an Omnipay driver for integration with the PaymentSense payment gateway. For general Omnipay usage instructions, please see the main [Omnipay](https://github.com/omnipay/omnipay) repository.
 
-*Important!* - As this gateway doesn't exist under the main Omnipay namespace, when you create the instance of the driver, you need to specify the complete namespace and class name, eg:
+**Important!** - As this gateway doesn't exist under the main Omnipay namespace, when you create the instance of the driver, you need to specify the complete namespace and class name, eg:
 
 `$gateway = Omnipay::create('\Coatesap\PaymentSense\Gateway');`
 
