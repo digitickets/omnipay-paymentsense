@@ -1,5 +1,5 @@
 {
-    "name": "coatesap/omnipay-paymentsense",
+    "name": "digitickets/omnipay-paymentsense",
     "type": "library",
     "description": "PaymentSense driver for the Omnipay payment processing library",
     "keywords": [
@@ -12,7 +12,7 @@
         "payment",
         "driver"
     ],
-    "homepage": "https://github.com/coatesap/omnipay-paymentsense",
+    "homepage": "https://github.com/digitickets/omnipay-paymentsense",
     "license": "MIT",
     "authors": [
         {
@@ -32,11 +32,6 @@
         "omnipay/tests": "2.*",
         "phpunit/phpunit": "~3.7.16",
         "squizlabs/php_codesniffer": "~1.4.4"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
-        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
