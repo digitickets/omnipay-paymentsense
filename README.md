@@ -18,7 +18,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "coatesap/omnipay-paymentsense": "^2.0"
+        "coatesap/omnipay-paymentsense": "^3.0"
     }
 }
 ```
