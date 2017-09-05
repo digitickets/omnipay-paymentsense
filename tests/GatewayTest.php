@@ -2,6 +2,8 @@
 
 namespace Coatesap\PaymentSense;
 
+use DateInterval;
+use DateTime;
 use Omnipay\Common\CreditCard;
 use Omnipay\Tests\GatewayTestCase;
 
@@ -21,7 +23,7 @@ class GatewayTest extends GatewayTestCase
                 'lastName' => 'User',
                 'number' => '4111111111111111',
                 'expiryMonth' => '12',
-                'expiryYear' => '2016',
+                'expiryYear' => $this->getFutureYear(),
                 'cvv' => '123',
                 'issueNumber' => '5',
                 'startMonth' => '4',
@@ -49,5 +51,13 @@ class GatewayTest extends GatewayTestCase
 
         $this->assertFalse($response->isSuccessful());
         $this->assertSame('Input variable errors', $response->getMessage());
+    }
+
+    public function getFutureYear()
+    {
+        $now = new DateTime();
+        $now->add(new DateInterval('P1Y'));
+
+        return $now->format('Y');
     }
 }
